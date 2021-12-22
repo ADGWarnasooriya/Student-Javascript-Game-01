@@ -62,15 +62,15 @@ function boyJumpAnimation() {
     boyJumpImageNumber = boyJumpImageNumber + 1;
     boyTag.src = "boy/Jump (" + boyJumpImageNumber + ").png";
 
-    if (boyJumpAnimationNumber <= 6) {
+    if (boyJumpImageNumber <= 6) {
         boyMarginTop = boyMarginTop - 2;
     } else {
         boyMarginTop = boyMarginTop + 2;
     }
-    boyTag.style.marginTop = marginTop + "%";
+    boyTag.style.marginTop = boyMarginTop + "%";
 
     if (boyJumpAnimationNumber == 12) {
-        boyJumpAnimationNumber = 0;
+        boyJumpImageNumber = 0;
         clearInterval(boyJumpAnimationNumber);
         boyJumpAnimationStatus = false;
         boyRunAnimationNumber = setInterval(boyRunAnimation, 200);
