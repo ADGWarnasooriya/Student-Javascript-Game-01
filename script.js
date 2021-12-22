@@ -1,5 +1,5 @@
 var boyTag = document.createElement("img");
-var box = document.getElementById("box");
+var boxTag = document.getElementById("box");
 
 function newGame() {
     var btn = document.getElementById("btn-new-game");
