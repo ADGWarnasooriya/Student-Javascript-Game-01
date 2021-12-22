@@ -17,7 +17,7 @@ body {
     color: white;
     background-color: black;
     font-size: 25px;
-    font-family: "Quicksand";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 8px;
     border: none;
     cursor: pointer;
