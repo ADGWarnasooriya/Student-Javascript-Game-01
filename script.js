@@ -10,6 +10,8 @@ function newGame() {
     boyTag.src = "boy/Run (1).png";
     boyTag.className = "boy";
 
+    scoreTag.innerHTML = "0";
+
 
     boxTag.appendChild(boyTag);
     boyRunAnimationNumber = setInterval(boyRunAnimation, 200);
