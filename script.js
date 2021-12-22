@@ -4,5 +4,6 @@ function newGame() {
 
     var boy = document.createElement("img");
     boy.src = "boy/Run (1).png";
+    boy.className = "boy";
 
 }
