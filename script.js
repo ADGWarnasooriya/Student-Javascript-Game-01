@@ -60,3 +60,9 @@ function boyJumpAnimation() {
     boyJumpImageNumber = boyJumpImageNumber + 1;
     boyTag.src = "boy/Jump (" + boyJumpImageNumber + ").png";
 }
+
+function keyAnimation(event) {
+
+    var key = event.which;
+
+}
