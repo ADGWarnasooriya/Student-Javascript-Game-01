@@ -33,3 +33,5 @@ function boyRunAnimation() {
     }
 
 }
+
+var score = 0;
