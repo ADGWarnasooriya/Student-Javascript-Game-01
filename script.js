@@ -14,6 +14,8 @@ function newGame() {
     boxTag.appendChild(scoreTag);
     scoreTag.className = "score";
 
+    var object = document.createElement("div");
+
 
     boxTag.appendChild(boyTag);
     boyRunAnimationNumber = setInterval(boyRunAnimation, 200);
