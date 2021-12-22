@@ -1,4 +1,4 @@
-var boy = document.createElement("img");
+var boyTag = document.createElement("img");
 var box = document.getElementById("box");
 
 function newGame() {
