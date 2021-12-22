@@ -15,3 +15,8 @@ function newGame() {
 }
 
 var boyRunImageNumber = 1;
+
+function boyRunAnimation() {
+    boyRunImageNumber = boyRunImageNumber + 1;
+
+}
