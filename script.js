@@ -10,7 +10,7 @@ function newGame() {
     boyTag.className = "boy";
 
 
-    box.appendChild(boy);
+    boxTag.appendChild(boyTag);
     boyRunAnimationNumber = setInterval(boyRunAnimation, 200);
     boyRunAnimationStatus = true;
 }
@@ -21,7 +21,7 @@ var boyRunAnimationStatus = false;
 
 function boyRunAnimation() {
     boyRunImageNumber = boyRunImageNumber + 1;
-    boy.src = "boy/Run (" + boyRunImageNumber + ").png";
+    boyTag.src = "boy/Run (" + boyRunImageNumber + ").png";
 
     if (boyRunImageNumber == 8) {
         boyRunImageNumber = 0;
