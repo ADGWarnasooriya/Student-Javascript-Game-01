@@ -11,6 +11,7 @@ function newGame() {
     boyTag.className = "boy";
 
     scoreTag.innerHTML = "0";
+    boxTag.appendChild(scoreTag);
 
 
     boxTag.appendChild(boyTag);
