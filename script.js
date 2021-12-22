@@ -1,1 +1,3 @@
-
+function newGame() {
+    alert("ok")
+}
