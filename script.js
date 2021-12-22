@@ -15,6 +15,7 @@ function newGame() {
     scoreTag.className = "score";
 
     var object = document.createElement("div");
+    object.className = "object";
 
 
     boxTag.appendChild(boyTag);
