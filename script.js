@@ -52,3 +52,6 @@ function objectAnimation() {
     objectMarginLeft = objectMarginLeft - 2;
     o1.style.marginLeft = objectMarginLeft + "%";
 }
+
+var boyJumpImageNumber = 0;
+var boyJumpAnimationStatus = false;
