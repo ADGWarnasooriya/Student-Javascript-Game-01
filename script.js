@@ -18,5 +18,6 @@ var boyRunImageNumber = 1;
 
 function boyRunAnimation() {
     boyRunImageNumber = boyRunImageNumber + 1;
+    boy.src = "boy/Run(" + boyRunImageNumber + ").png"
 
 }
