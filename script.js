@@ -67,6 +67,7 @@ function boyJumpAnimation() {
     } else {
         boyMarginTop = boyMarginTop + 2;
     }
+    boyTag.style.marginTop = marginTop + "%";
 
     if (boyJumpAnimationNumber == 12) {
         boyJumpAnimationNumber = 0;
