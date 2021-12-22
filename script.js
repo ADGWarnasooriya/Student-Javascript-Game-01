@@ -6,8 +6,8 @@ function newGame() {
     btn.remove();
 
 
-    boy.src = "boy/Run (1).png";
-    boy.className = "boy";
+    boyTag.src = "boy/Run (1).png";
+    boyTag.className = "boy";
 
 
     box.appendChild(boy);
