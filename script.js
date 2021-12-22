@@ -16,6 +16,7 @@ function newGame() {
 
 var boyRunImageNumber = 1;
 var boyRunAnimationNumber = 0;
+var boyRunAnimationStatus = false;
 
 function boyRunAnimation() {
     boyRunImageNumber = boyRunImageNumber + 1;
