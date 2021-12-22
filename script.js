@@ -16,6 +16,7 @@ function newGame() {
 
     var object = document.createElement("div");
     object.className = "object";
+    object.id = "o1";
     boxTag.appendChild(object);
 
 
