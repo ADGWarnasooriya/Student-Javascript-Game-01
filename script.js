@@ -11,7 +11,7 @@ function newGame() {
 
 
     box.appendChild(boy);
-
+    setInterval(boyRunAnimation, 200)
 }
 
 var boyRunImageNumber = 1;
