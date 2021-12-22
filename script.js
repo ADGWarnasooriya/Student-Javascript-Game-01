@@ -1,6 +1,6 @@
 var boyTag = document.createElement("img");
 var boxTag = document.getElementById("box");
-var scoreTag = document.createElement("h2");
+var scoreTag = document.createElement("h1");
 
 function newGame() {
     var btn = document.getElementById("btn-new-game");
