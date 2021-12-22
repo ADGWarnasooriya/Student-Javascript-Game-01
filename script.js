@@ -64,5 +64,7 @@ function boyJumpAnimation() {
 function keyAnimation(event) {
 
     var key = event.which;
-    if (key == 32)
+    if (key == 32) {
+        clearInterval(boyRunAnimationNumber);
+    }
 }
