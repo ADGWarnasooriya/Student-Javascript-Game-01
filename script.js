@@ -43,3 +43,5 @@ function boyRunAnimation() {
 }
 
 var score = 0;
+
+var objectMarginLeft = 90;
