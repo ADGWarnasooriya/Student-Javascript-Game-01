@@ -33,6 +33,7 @@ function boyRunAnimation() {
     }
 
     score = score + 10;
+    scoreTag.innerHTML = score;
 
 }
 
