@@ -55,3 +55,8 @@ function objectAnimation() {
 
 var boyJumpImageNumber = 0;
 var boyJumpAnimationStatus = false;
+
+function boyJumpAnimation() {
+    boyJumpImageNumber = boyJumpImageNumber + 1;
+    boyTag.src = "boy/Jump (" + boyJumpImageNumber + ").png";
+}
