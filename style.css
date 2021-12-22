@@ -27,3 +27,7 @@ body {
 .btn-new-game:hover {
     background-color: rgb(53, 52, 52);
 }
+
+.boy {
+    height: 200px;
+}
