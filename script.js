@@ -32,6 +32,8 @@ function boyRunAnimation() {
         boyRunImageNumber = 0;
     }
 
+    score = score + 10;
+
 }
 
 var score = 0;
