@@ -13,3 +13,5 @@ function newGame() {
     box.appendChild(boy);
 
 }
+
+var boyRunImageNumber = 1;
