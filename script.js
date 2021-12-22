@@ -56,6 +56,7 @@ function objectAnimation() {
 var boyJumpImageNumber = 0;
 var boyJumpAnimationStatus = false;
 var boyJumpAnimationNumber = 0;
+var boyMarginTop = 0;
 
 function boyJumpAnimation() {
     boyJumpImageNumber = boyJumpImageNumber + 1;
