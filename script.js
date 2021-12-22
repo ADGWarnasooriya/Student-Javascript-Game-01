@@ -60,6 +60,14 @@ var boyJumpAnimationNumber = 0;
 function boyJumpAnimation() {
     boyJumpImageNumber = boyJumpImageNumber + 1;
     boyTag.src = "boy/Jump (" + boyJumpImageNumber + ").png";
+
+    if (boyJumpAnimationNumber == 12) {
+        boyJumpAnimationNumber = 0;
+        clearInterval(boyJumpAnimationNumber);
+        boyJumpAnimationStatus = false;
+        boyRunAnimationNumber = setInterval(boyRunAnimation, 200);
+        boyRunAnimationStatus = true;
+    }
 }
 
 function keyAnimation(event) {
