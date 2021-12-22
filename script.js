@@ -7,5 +7,6 @@ function newGame() {
     boy.className = "boy";
 
     var box = document.getElementById("box");
+    box.appendChild(boy);
 
 }
