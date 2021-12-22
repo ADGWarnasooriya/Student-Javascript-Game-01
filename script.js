@@ -64,5 +64,5 @@ function boyJumpAnimation() {
 function keyAnimation(event) {
 
     var key = event.which;
-
+    if (key == 32)
 }
