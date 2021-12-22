@@ -1,3 +1,3 @@
 function newGame() {
-    alert("ok")
+    var btn = document.getElementById("btn-new-game");
 }
