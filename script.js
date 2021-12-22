@@ -20,4 +20,8 @@ function boyRunAnimation() {
     boyRunImageNumber = boyRunImageNumber + 1;
     boy.src = "boy/Run(" + boyRunImageNumber + ").png"
 
+    if (boyRunImageNumber == 8) {
+        boyRunImageNumber = 0;
+    }
+
 }
