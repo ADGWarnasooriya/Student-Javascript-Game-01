@@ -23,6 +23,8 @@ function newGame() {
     boxTag.appendChild(boyTag);
     boyRunAnimationNumber = setInterval(boyRunAnimation, 200);
     boyRunAnimationStatus = true;
+
+    setInterval(objectAnimation, 100);
 }
 
 var boyRunImageNumber = 1;
