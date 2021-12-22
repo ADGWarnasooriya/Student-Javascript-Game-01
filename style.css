@@ -32,3 +32,10 @@ body {
     height: 200px;
     margin-left: -90%;
 }
+
+.score {
+    position: absolute;
+    align-self: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 52, 52);
+}
