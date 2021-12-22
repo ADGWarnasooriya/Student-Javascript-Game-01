@@ -23,3 +23,7 @@ body {
     cursor: pointer;
     font-weight: bold;
 }
+
+.btn-new-game:hover {
+    background-color: rgb(53, 52, 52);
+}
